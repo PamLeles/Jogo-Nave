@@ -1,4 +1,4 @@
-***** js.js ****
+***** script.js ****
 
 	var TECLA = {
 	W: 87,
@@ -8,9 +8,9 @@
 
 	jogo.pressionou = [];
 
-***** js.js ****
+***** script.js ****
 
-	//Verifica se o usuário pressionou alguma tecla	
+	//Verifica se o usuï¿½rio pressionou alguma tecla	
 	
 	$(document).keydown(function(e){
 	jogo.pressionou[e.which] = true;
@@ -21,12 +21,12 @@
        jogo.pressionou[e.which] = false;
 	});
 
-***** js.js ****
+***** script.js ****
 
 	movejogador();
 
 
-***** js.js ****
+***** script.js ****
 
 	function movejogador() {
 	
@@ -44,7 +44,7 @@
 	
 	if (jogo.pressionou[TECLA.D]) {
 		
-		//Chama função Disparo	
+		//Chama funï¿½ï¿½o Disparo	
 	}
 
-	} // fim da função movejogador()
+	} // fim da funï¿½ï¿½o movejogador()
