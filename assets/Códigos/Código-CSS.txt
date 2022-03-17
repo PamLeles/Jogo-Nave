@@ -1,4 +1,4 @@
-**** estilos.css ****
+
 
 
 @font-face {
@@ -83,8 +83,34 @@ background-image:url(../imgs/apache.png);
 
 }
 
+.anima1 {
+	background-image:url(./assets/imgs/apache.png);
+	animation:play .5s steps(2) infinite;
+}
 
-**** index.html ****
+@keyframes play {
+	from {background-position:0px;}
+	to {background-position:-512px;}
+}
 
-<link href="css/estilos.css" rel="stylesheet" type="text/css">
+.anima2 {
+    background-image:url(./assets/imgs/inimigo1.png);
+    animation: play .5s steps(2) infinite;
+     
+}
+
+
+.anima3 {
+	background-image:url(./assets/imgs/amigo.png);
+	animation:play2 .9s steps(12) infinite;
+	
+}
+
+
+@keyframes play2 {
+	from {background-position:0px;}
+	to {background-position:-528px;}
+}
+
+
 
