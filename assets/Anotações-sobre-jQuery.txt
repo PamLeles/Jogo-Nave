@@ -1,0 +1,89 @@
+--Utilizando jQuery
+
+jQuery também simplifica muitas coisas complicadas do JavaScript, como chamadas AJAX e manipulação de DOM.
+
+A biblioteca jQuery contém os seguintes recursos:
+
+>Manipulação de HTML/DOM
+>Manipulação de CSS
+>Métodos de evento HTML
+>Efeitos e animações
+>AJAX
+
+Serviços de utilidade pública
+Dica: Além disso, o jQuery possui plugins para quase todas as tarefas existentes.
+
+--Sintaxe jQuery
+A sintaxe do jQuery é feita sob medida para selecionar elementos HTML e realizar alguma ação no(s) elemento(s).
+
+A sintaxe básica é: $( seletor ). ação ()
+
+>Um sinal $ para definir/acessar jQuery
+>A ( seletor ) para "consultar (ou localizar)" elementos HTML
+>Uma ação jQuery () a ser executada no(s) elemento(s)
+
+Exemplos:
+
+$(this).hide()-> oculta o elemento atual.
+
+$("p").hide()-> oculta todos os elementos <p>.
+
+$(".test").hide()-> oculta todos os elementos com class="test".
+
+$("#test").hide()-> oculta o elemento com id="test".
+
+--O seletor de elementos
+>O seletor de elemento jQuery seleciona elementos com base no nome do elemento.
+>Você pode selecionar todos os <p> elementos em uma página como esta:
+
+Exemplo:
+$("p")
+
+
+Quando um usuário clica em um botão, todos os <p> elementos ficam ocultos:
+
+Exemplo
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
+});
+
+-- O seletor #id
+Para encontrar um elemento com um id específico, escreva um caractere hash, seguido do id do elemento HTML:
+
+$("#test")
+
+-- O seletor .class
+O seletor jQuery .class encontra elementos com uma classe específica.
+
+Para encontrar elementos com uma classe específica, escreva um caractere de ponto final, seguido do nome da classe:
+
+$(".test")
+
+Mais exemplos de seletores jQuery
+
+       Syntax                   |   	Description	Example
+________________________________|__________________________________________________________________________________
+$("*")	                        |   Selects all elements	
+$(this)                         |	Selects the current HTML element	
+$("p.intro")                    |   Selects all <p> elements with class="intro"	
+$("p:first")                    |   Selects the first <p> element	
+$("ul li:first")                |	Selects the first <li> element of the first <ul>	
+$("ul li:first-child")          |   Selects the first <li> element of every <ul>	
+$("[href]")	                    |   Selects all elements with an href attribute	
+$("a[target='_blank']")         |	Selects all <a> elements with a target attribute value equal to "_blank"	
+$("a[target!='_blank']")        |	Selects all <a> elements with a target attribute value NOT equal to "_blank"	
+$(":button")                    |	Selects all <button> elements and <input> elements of type="button"	
+$("tr:even")                    |	Selects all even <tr> elements	
+$("tr:odd")	                    |   Selects all odd <tr> elements
+
+
+--Método jQuery append()
+Definição e uso
+O método append() insere o conteúdo especificado no final dos elementos selecionados.
+
+Dica: Para inserir conteúdo no início dos elementos selecionados, use o método prepend() .
+
+Sintaxe
+$(selector).append(content,function(index,html))
