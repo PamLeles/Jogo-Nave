@@ -1,6 +1,6 @@
 ***** js.js ****
 
-//Principais vari·veis do jogo
+//Principais vari√°veis do jogo
 	
 	var jogo = {}
 	
@@ -12,15 +12,15 @@
 	
 	movefundo();
 	
-	} // Fim da funÁ„o loop()
+	} // Fim da fun√ß√£o loop()
 
 
 
-//FunÁ„o que movimenta o fundo do jogo
+//Fun√ß√£o que movimenta o fundo do jogo
 	
 	function movefundo() {
 	
 	esquerda = parseInt($("#fundoGame").css("background-position"));
 	$("#fundoGame").css("background-position",esquerda-1);
 	
-	} // fim da funÁ„o movefundo()
+	} // fim da fun√ß√£o movefundo()
