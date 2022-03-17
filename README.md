@@ -1,1 +1,1 @@
-# Constrindo o primeiro jogo de Naves
+# Construindo o primeiro jogo de Naves
