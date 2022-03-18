@@ -1,7 +1,7 @@
 # Primeiro jogo de Nave!
 
 ## objetivo do jogo!
-- Jogador (Helicoptero) deve salvar seu Amigo seus dos Inimigos (helicóptero e caminhão).
+- Jogador (Helicoptero) deve salvar seu Amigo dos Inimigos (helicóptero e caminhão).
 
 - Utilize a tecla W para mover para cima o Helicóptero, utilize a tecla S para mover o Helicóptero para baixo e tecla D para atirar.
 ### Clique na imagem para assitir ao resultado do jogo: 
