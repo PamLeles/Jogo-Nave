@@ -4,8 +4,8 @@
 - Jogador (Helicoptero) deve salvar seu Amigo dos Inimigos (helicóptero e caminhão).
 
 - Utilize a tecla W para mover para cima o Helicóptero, utilize a tecla S para mover o Helicóptero para baixo e tecla D para atirar.
-### Clique na imagem para assitir ao resultado do jogo: 
-[![](https://i9.ytimg.com/vi/-qvY59-ycgg/mq1.jpg?sqp=CODr0pEG&rs=AOn4CLA567NMOXHatEfMxa0D86b0WDsprg)](https://youtu.be/-qvY59-ycgg "Jogo nave")
+### Para ver jogo funcionando, basta clicar na imagem! 
+[![](https://i9.ytimg.com/vi/-qvY59-ycgg/mq1.jpg?sqp=CODr0pEG&rs=AOn4CLA567NMOXHatEfMxa0D86b0WDsprg)](https://hardcore-clarke-de39d5.netlify.app/ "Jogo nave")
 
 ### Objetivo de desafio:
 - Utilizar HTML5 juntamente com  CSS3 e o JavaScript.<p> No projeto são discutidas as etapas de desenvolvimento de jogos em HTML5, CSS3 e JavaScript do início ao fim. Neste projeto, especificamente, os jogos serão publicados de forma que possam ser acessados via browser.
